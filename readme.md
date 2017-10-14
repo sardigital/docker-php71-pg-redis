@@ -23,11 +23,26 @@
 Данный образ используется как базовый для запуска `php` приложений. Если вам необходимо дополнить его, нарпимер, `nginx + php-fpm`-ом, то вам достаточно указать его как базовый, дописать необходимые шаги (при необходимости добавления демонов, например `php-fpm` - просто допилите конфиг его запуска с помощью `supervisor` и положите его в директорию `/etc/supervisor/conf.d/` с помощью директивы `ADD`).
 
 Для его использования с помощью `gitlab ci` необходимо запускать `supervisor` ручками, например так:
-```bash
+
+```yml
+# GitLab CI help: <https://docs.gitlab.com/ee/ci/yaml/>
+
+# Docker image page: <https://hub.docker.com/r/avto-dev/docker-php71-pg-redis>
+image: avto-dev/docker-php71-pg-redis
+
+variables:
+  GIT_STRATEGY: clone
+
+stages:
+  - build
+  - deploy
+
 before_script:
   - echo "> Starting supervisor.."
   - /etc/init.d/supervisor start &
   - until runuser -l postgres -c 'pg_isready' 1>/dev/null 2>&1; do echo 'Wait for daemon starts..'; sleep 1; done;
+  
+# ...
 ```
 
 ### Лицензирование
