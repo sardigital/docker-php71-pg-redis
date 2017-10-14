@@ -51,4 +51,4 @@ before_script:
 
 Код данного репозитория распространяется под лицензией **MIT**.
 
-[docker_hub]:https://hub.docker.com/r/avt-dev/docker-php71-pg-redis/
+[docker_hub]:https://hub.docker.com/r/avtodev/docker-php71-pg-redis/
