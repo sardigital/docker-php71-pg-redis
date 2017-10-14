@@ -1,6 +1,6 @@
 ## Докер-образ `docker-php71-pg-redis`
 
-[![MASTER build](https://img.shields.io/docker/build/avto-dev/docker-php71-pg-redis.svg)](https://hub.docker.com/r/avto-dev/docker-php71-pg-redis)
+[![MASTER build](https://img.shields.io/docker/build/avtodev/docker-php71-pg-redis.svg)](https://hub.docker.com/r/avtodev/docker-php71-pg-redis)
 [![GitHub issues](https://img.shields.io/github/issues/avto-dev/docker-php71-pg-redis.svg)](https://github.com/avto-dev/docker-php71-pg-redis/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/avtoraport/docker-php71-pg-redis/master/license)
 
@@ -18,7 +18,7 @@
 
 ### Docker HUB
 
-[/r/avto-dev/docker-php71-pg-redis][docker_hub]
+[/r/avtodev/docker-php71-pg-redis][docker_hub]
 
 ### Назначение
 
@@ -29,8 +29,8 @@
 ```yml
 # GitLab CI help: <https://docs.gitlab.com/ee/ci/yaml/>
 
-# Docker image page: <https://hub.docker.com/r/avto-dev/docker-php71-pg-redis>
-image: avto-dev/docker-php71-pg-redis
+# Docker image page: <https://hub.docker.com/r/avtodev/docker-php71-pg-redis>
+image: avtodev/docker-php71-pg-redis
 
 variables:
   GIT_STRATEGY: clone
@@ -51,4 +51,4 @@ before_script:
 
 Код данного репозитория распространяется под лицензией **MIT**.
 
-[docker_hub]:https://hub.docker.com/r/avto-dev/docker-php71-pg-redis/
+[docker_hub]:https://hub.docker.com/r/avt-dev/docker-php71-pg-redis/
