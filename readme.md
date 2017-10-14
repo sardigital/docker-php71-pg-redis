@@ -1,6 +1,8 @@
 ## Докер-образ `docker-php71-pg-redis`
 
-[![MASTER build](https://img.shields.io/docker/build/avtoraport/docker-php71-pg-redis.svg)](https://hub.docker.com/r/avtoraport/docker-php71-pg-redis) [![GitHub issues](https://img.shields.io/github/issues/avtoraport/docker-php71-pg-redis.svg)](https://github.com/avtoraport/docker-php71-pg-redis/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/avtoraport/docker-php71-pg-redis/master/license)
+[![MASTER build](https://img.shields.io/docker/build/avto-dev/docker-php71-pg-redis.svg)](https://hub.docker.com/r/avto-dev/docker-php71-pg-redis)
+[![GitHub issues](https://img.shields.io/github/issues/avto-dev/docker-php71-pg-redis.svg)](https://github.com/avto-dev/docker-php71-pg-redis/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/avtoraport/docker-php71-pg-redis/master/license)
 
 Данный образ включает в себя:
 
