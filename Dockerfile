@@ -1,7 +1,7 @@
 FROM debian:jessie
 
-MAINTAINER "avtoraport <it@avtoraport.ru>"
-LABEL Description="Basic docker image with PHP 7.1 (with some stuff) & PostgreSQL & Redis" Vendor="avtoraport" Version="0.1"
+MAINTAINER "Avto Develop"
+LABEL Description="Basic docker image with PHP 7.1 (with some stuff) & PostgreSQL & Redis" Vendor="avto-dev" Version="0.1"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
